@@ -83,7 +83,6 @@ export default {
             url: process.env.REDIS_URL
         }
     },
-    */
 
     /*
     // Redis cluster options.
