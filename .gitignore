@@ -2,7 +2,7 @@
 .idea
 npm-debug.log
 node_modules
-config.local.js
+# config.local.js
 test/test2.js
 static/test
 iframely-*.json
