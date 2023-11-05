@@ -50,7 +50,7 @@ export default {
     */
 
     port: 8061, //can be overridden by PORT env var
-    host: '127.0.0.1',    // Dockers beware. See https://github.com/itteco/iframely/issues/132#issuecomment-242991246
+    host: '0.0.0.0',    // Dockers beware. See https://github.com/itteco/iframely/issues/132#issuecomment-242991246
                         //can be overridden by HOST env var
 
     // Optional SSL cert, if you serve under HTTPS.
@@ -80,8 +80,7 @@ export default {
     // Redis cache options.
     REDIS_OPTIONS: {
         socket: {
-            host: process.env.REDIS_HOST,
-            port: process.env.REDIS_PORT
+            url: process.env.REDIS_URL
         }
     },
     */
